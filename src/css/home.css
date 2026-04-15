@@ -1,0 +1,74 @@
+/* ================= HOME ================= */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.content-home {
+    max-width: 70%;
+}
+
+.content-home h1 span {
+    color: var(--secondary-color);
+}
+
+.home-img {
+    width: 30%;
+}
+
+.home img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-main {
+    width: 91%;
+    max-width: 310px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--secondary-color);
+    transition: 0.3s;
+}
+
+#img-main:hover {
+    transform: scale(1.05);
+}
+
+/* ================= SOCIAL ICONS ================= */
+.s-icon-g,.s-icon-l{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 2px solid;
+    transition: var(--transition);
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+
+.s-icon-g {
+    border-color: #fff;
+    color: #fff;
+}
+
+.s-icon-g:hover {
+    background: #fff;
+    color: #000;
+    transform: translateY(-4px);
+}
+
+.s-icon-l {
+    border-color: #0077B5;
+    color: #0077B5;
+}
+
+.s-icon-l:hover {
+    background: #0077B5;
+    color: #fff;
+    transform: translateY(-4px);
+}
+
