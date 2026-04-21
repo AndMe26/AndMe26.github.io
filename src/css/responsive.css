@@ -3,6 +3,7 @@
     .home {
         gap: 30px;
         padding-top: 120px;
+        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -18,12 +19,14 @@
     }
 
     #navbar {
+        display: flex;
         flex-direction: column;
         gap: 8px;
         padding: 0.7rem 5%;
     }
 
     .nav-links {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
