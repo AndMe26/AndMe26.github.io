@@ -67,7 +67,7 @@
 
 
     .content-project {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .card-proyect {
@@ -92,12 +92,12 @@
     }
 
     .contenedor-mascotas {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 480px) {
-   body {
+    body {
         padding-top: 110px;
     }
 

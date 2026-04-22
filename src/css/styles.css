@@ -45,11 +45,25 @@ html {
 }
 
 body {
-    background-color: var(--background-secondary);
+    background: linear-gradient(-45deg, #0f172a,#1e3a8a,#0a0f1f,#1d4ed8,#111827);
+    background-size: 400% 400%;
+    animation: backgroundMove 12s ease infinite;
     font-family: 'Roboto', sans-serif;
     color: var(--text-primary);
     line-height: 1.6;
     padding-top: 70px;
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 a {
@@ -67,7 +81,7 @@ a {
 
 /* ================= SECTIONS ================= */
 section {
-    padding: 6rem 5%;
+    padding: 1rem 2%;
     max-width: 1400px;
     margin: 0 auto;
 }

@@ -28,7 +28,7 @@
     transition: 0.3s;
 }
 
-#img-main:hover {
+.profile-main:hover {
     transform: scale(1.05);
 }
 
