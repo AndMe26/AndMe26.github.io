@@ -67,11 +67,13 @@
 
 
     .content-project {
-        grid-template-columns: repeat(2, 1fr);
+        
+        grid-template-columns: repeat(2,1fr);
+        
     }
 
     .card-proyect {
-        width: 100%;
+        width: auto;
     }
 
     .content-home h1 {
