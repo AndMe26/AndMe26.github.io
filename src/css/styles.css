@@ -106,3 +106,19 @@ footer {
 }
 
 
+.welcome {
+    position: fixed;
+    top:-100px;  /* se mueve hacia arriba para ocultarlo */
+    left: 50%;  /* se desplaza a la izquierda */
+    transform: translateX(-50%);  /* se centra a la izquierda */
+    background-color: #0f172a; /* fondo oscuro */
+    color: #e0e7ff; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+    border: 1px solid var(--secondary-color); 
+    font-size: 15px;
+    transition: top 0.5s ease;
+    z-index: 1000;
+}
+

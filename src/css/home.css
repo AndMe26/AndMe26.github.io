@@ -66,3 +66,12 @@
     transform: translateY(-4px);
 }
 
+#texto {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#texto:hover {
+    color: #3b82f6; /* azul neon */
+}
+
