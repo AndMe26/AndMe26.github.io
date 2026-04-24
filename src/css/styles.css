@@ -54,6 +54,7 @@ body {
     padding-top: 70px;
 }
 
+/* ================= ANIMACION DEL FONDO DE LA PAGINA ================= */
 @keyframes backgroundMove {
     0% {
         background-position: 0% 50%;
@@ -75,6 +76,7 @@ a {
 .social-icons{
     display: flex;
     justify-content: left;
+    padding: 20px;
     gap: 10px;
 }
 
@@ -105,13 +107,13 @@ footer {
     color: var(--secondary-color);
 }
 
-
+/* ================= WELCOME MESSAGE ================= */
 .welcome {
     position: fixed;
     top:-100px;  /* se mueve hacia arriba para ocultarlo */
     left: 50%;  /* se desplaza a la izquierda */
     transform: translateX(-50%);  /* se centra a la izquierda */
-    background-color: #0f172a; /* fondo oscuro */
+    background-color: #0f172a; 
     color: #e0e7ff; 
     padding: 10px 20px;
     border-radius: 8px;
@@ -120,5 +122,36 @@ footer {
     font-size: 15px;
     transition: top 0.5s ease;
     z-index: 1000;
+}
+
+/* ================= ABOUT ME BUTTON AND TEXT ================= */
+#info-about-me{
+    display: none;
+}
+
+#info-about-me {
+    margin-top: 10px;
+    padding: 12px;
+    background: rgba(108, 111, 116, 0.1);
+    border-left: 3px solid #3b82f6;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+#btn-info{
+    margin-top: 10px;
+    padding: 6px 14px;
+    background: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn-info:hover{
+    background: var(--secondary-color);
+    color: #0f172a;
+    box-shadow: 0 0 10px var(--secondary-color);
 }
 
