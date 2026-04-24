@@ -1,6 +1,6 @@
 # Mi portafolio web
 
-Este es mi portafolio personal donde puede darle un vistazo a mis proyectos, un poco de informacion sobre mi y unas formas de contacto para que me puedas contactar conmigo
+Este es mi portafolio personal donde puedes darle un vistazo a mis proyectos, un poco de informacion sobre mi y unas formas de contacto para que me puedas contactar conmigo
 
 ---
 
